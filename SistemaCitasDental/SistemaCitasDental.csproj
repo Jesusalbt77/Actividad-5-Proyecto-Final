@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cita.cs" />
+    <Compile Include="FormMostrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMostrar.Designer.cs">
+      <DependentUpon>FormMostrar.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAgendarCita.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormMostrar.resx">
+      <DependentUpon>FormMostrar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAgendarCita.resx">
       <DependentUpon>frmAgendarCita.cs</DependentUpon>
     </EmbeddedResource>

@@ -43,6 +43,15 @@ namespace SistemaCitasDental
                 MessageBox.Show("Cita registrada correctamente.");
             }
         }
+
+        private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormMostrar form = new FormMostrar(listaCitas);
+            form.ShowDialog();
+        
+            
+            
+        }
     }
 }
 

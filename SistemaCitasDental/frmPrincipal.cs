@@ -15,6 +15,8 @@ namespace SistemaCitasDental
             InitializeComponent();
         }
 
+
+
         private void MostrarCitas()
         {
             dgvCitas.DataSource = null;

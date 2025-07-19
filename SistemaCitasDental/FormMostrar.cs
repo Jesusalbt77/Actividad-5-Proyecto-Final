@@ -16,68 +16,34 @@ namespace SistemaCitasDental
         public FormMostrar(List<Cita> listaCitas)
         {
             InitializeComponent();
-            this.citas = listaCitas;
-
-            dgvCitas.AutoGenerateColumns = false;
-            dgvCitas.Columns.Clear();
-
-            dgvCitas.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "ID",
-                DataPropertyName = "Id"
-            });
-            dgvCitas.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Paciente",
-                DataPropertyName = "NombrePaciente"
-            });
-            dgvCitas.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Fecha",
-                DataPropertyName = "Fecha"
-            });
-            dgvCitas.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Hora",
-                DataPropertyName = "Hora"
-            });
-            dgvCitas.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Duración (min)",
-                DataPropertyName = "DuracionMinutos"
-            });
-            dgvCitas.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Dentista",
-                DataPropertyName = "NombreDentista"
-            });
-            dgvCitas.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Motivo",
-                DataPropertyName = "Motivo"
-            });
-            dgvCitas.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Días Restantes",
-                DataPropertyName = "DiasRestantes"
-            });
-            dgvCitas.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Horas Restantes",
-                DataPropertyName = "HorasRestantes"
-            });
-            dgvCitas.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Estado",
-                DataPropertyName = "Estado"
-            });
+            this.citas = listaCitas;        
         }
        
 
         private void FormMostrar_Load(object sender, EventArgs e)
         {
-            dgvCitas.DataSource = null;
+            RefrescarGrid();
 
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            var formAgendar = new frmAgendarCita(citas);
+            var resultado = formAgendar.ShowDialog();
+
+            if (resultado == DialogResult.OK)
+            {
+                // Agregar la nueva cita a la lista
+                citas.Add(formAgendar.NuevaCita);
+
+                // Actualizar el DataGridView
+                RefrescarGrid();
+            }
+        }
+
+        private void RefrescarGrid()
+        {
+            dgvCitas.DataSource = null;
             dgvCitas.DataSource = citas.Select(c => new
             {
                 c.Id,
@@ -92,5 +58,6 @@ namespace SistemaCitasDental
                 Estado = c.Estado
             }).ToList();
         }
+
     }
 }

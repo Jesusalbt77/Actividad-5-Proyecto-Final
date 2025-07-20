@@ -26,21 +26,6 @@ namespace SistemaCitasDental
 
         }
 
-        private void btnGuardar_Click(object sender, EventArgs e)
-        {
-            var formAgendar = new frmAgendarCita(citas);
-            var resultado = formAgendar.ShowDialog();
-
-            if (resultado == DialogResult.OK)
-            {
-                // Agregar la nueva cita a la lista
-                citas.Add(formAgendar.NuevaCita);
-
-                // Actualizar el DataGridView
-                RefrescarGrid();
-            }
-        }
-
         private void RefrescarGrid()
         {
             dgvCitas.DataSource = null;
@@ -59,5 +44,18 @@ namespace SistemaCitasDental
             }).ToList();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmAgendarCita formAgendar = new frmAgendarCita(citas);  // Le paso la lista actual
+
+            var resultado = formAgendar.ShowDialog();
+
+            if (resultado == DialogResult.OK)
+            {
+                citas.Add(formAgendar.NuevaCita);
+                // Actualizar el grid con la nueva cita
+                RefrescarGrid();
+            }
+        }
     }
 }

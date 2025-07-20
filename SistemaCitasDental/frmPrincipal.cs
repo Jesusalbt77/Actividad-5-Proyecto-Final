@@ -50,9 +50,7 @@ namespace SistemaCitasDental
         {
             FormMostrar form = new FormMostrar(listaCitas);
             form.ShowDialog();
-        
-            
-            
+     
         }
     }
 }

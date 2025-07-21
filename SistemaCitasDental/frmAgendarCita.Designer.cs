@@ -61,7 +61,7 @@
             // txtId
             // 
             this.txtId.Location = new System.Drawing.Point(265, 49);
-            this.txtId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtId.Margin = new System.Windows.Forms.Padding(4);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(228, 27);
             this.txtId.TabIndex = 1;
@@ -80,7 +80,7 @@
             // txtPaciente
             // 
             this.txtPaciente.Location = new System.Drawing.Point(265, 125);
-            this.txtPaciente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPaciente.Margin = new System.Windows.Forms.Padding(4);
             this.txtPaciente.Name = "txtPaciente";
             this.txtPaciente.Size = new System.Drawing.Size(228, 27);
             this.txtPaciente.TabIndex = 3;
@@ -100,7 +100,7 @@
             // 
             this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFecha.Location = new System.Drawing.Point(265, 223);
-            this.dtpFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpFecha.Margin = new System.Windows.Forms.Padding(4);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(228, 27);
             this.dtpFecha.TabIndex = 5;
@@ -120,7 +120,7 @@
             // 
             this.dtpHora.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dtpHora.Location = new System.Drawing.Point(265, 316);
-            this.dtpHora.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpHora.Margin = new System.Windows.Forms.Padding(4);
             this.dtpHora.Name = "dtpHora";
             this.dtpHora.Size = new System.Drawing.Size(228, 27);
             this.dtpHora.TabIndex = 7;
@@ -144,7 +144,7 @@
             0,
             0});
             this.nudDuracion.Location = new System.Drawing.Point(265, 412);
-            this.nudDuracion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nudDuracion.Margin = new System.Windows.Forms.Padding(4);
             this.nudDuracion.Maximum = new decimal(new int[] {
             180,
             0,
@@ -178,7 +178,7 @@
             // txtDentista
             // 
             this.txtDentista.Location = new System.Drawing.Point(265, 499);
-            this.txtDentista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDentista.Margin = new System.Windows.Forms.Padding(4);
             this.txtDentista.Name = "txtDentista";
             this.txtDentista.Size = new System.Drawing.Size(228, 27);
             this.txtDentista.TabIndex = 11;
@@ -198,7 +198,7 @@
             // 
             this.cboMotivo.FormattingEnabled = true;
             this.cboMotivo.Location = new System.Drawing.Point(265, 593);
-            this.cboMotivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboMotivo.Margin = new System.Windows.Forms.Padding(4);
             this.cboMotivo.Name = "cboMotivo";
             this.cboMotivo.Size = new System.Drawing.Size(228, 27);
             this.cboMotivo.TabIndex = 13;
@@ -207,23 +207,25 @@
             // 
             this.btnGuardar.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.Location = new System.Drawing.Point(50, 665);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(114, 50);
             this.btnGuardar.TabIndex = 14;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Location = new System.Drawing.Point(240, 665);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(114, 50);
             this.btnCancelar.TabIndex = 15;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // frmAgendarCita
             // 
@@ -247,7 +249,7 @@
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblID);
             this.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmAgendarCita";
             this.Text = "frmAgendarCita";
             ((System.ComponentModel.ISupportInitialize)(this.nudDuracion)).EndInit();

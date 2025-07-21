@@ -22,13 +22,14 @@ namespace SistemaCitasDental
 
         private void FormMostrar_Load(object sender, EventArgs e)
         {
-            RefrescarGrid();
-
+            MostrarCitas();
         }
 
-        private void RefrescarGrid()
+        private void MostrarCitas()
         {
+            dgvCitas.AutoGenerateColumns = true;
             dgvCitas.DataSource = null;
+
             dgvCitas.DataSource = citas.Select(c => new
             {
                 c.Id,
@@ -43,19 +44,6 @@ namespace SistemaCitasDental
                 Estado = c.Estado
             }).ToList();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmAgendarCita formAgendar = new frmAgendarCita(citas);  // Le paso la lista actual
-
-            var resultado = formAgendar.ShowDialog();
-
-            if (resultado == DialogResult.OK)
-            {
-                citas.Add(formAgendar.NuevaCita);
-                // Actualizar el grid con la nueva cita
-                RefrescarGrid();
-            }
-        }
     }
 }
+

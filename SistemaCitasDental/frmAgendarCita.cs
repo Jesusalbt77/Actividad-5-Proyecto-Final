@@ -28,8 +28,9 @@ namespace SistemaCitasDental
         {
             // Validaciones
             if (string.IsNullOrWhiteSpace(txtId.Text) ||
-                string.IsNullOrWhiteSpace(txtPaciente.Text) ||
-                string.IsNullOrWhiteSpace(txtDentista.Text))
+             string.IsNullOrWhiteSpace(txtPaciente.Text) ||
+             string.IsNullOrWhiteSpace(txtDentista.Text) ||
+             cboMotivo.SelectedIndex == -1)
             {
                 MessageBox.Show("Todos los campos son obligatorios.");
                 return;

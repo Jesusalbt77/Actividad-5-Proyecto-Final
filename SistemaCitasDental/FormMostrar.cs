@@ -77,7 +77,7 @@ namespace SistemaCitasDental
             }
 
             // Abrir formulario de actualización
-            Actualizar formActualizar = new Actualizar(citaSeleccionada);
+            Actualizar formActualizar = new Actualizar(listaCitas);
             if (formActualizar.ShowDialog() == DialogResult.OK)
             {
                 RefrescarGrid(); // Refrescar la vista

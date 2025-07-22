@@ -7,39 +7,70 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Microsoft.VisualBasic;
 namespace SistemaCitasDental
 {
     public partial class Actualizar : Form
     {
-        private Cita cita; // Esta es la cita que se va a actualizar
 
-        public Actualizar(Cita citaSeleccionada)
+        private List<Cita> listaCitas;
+        private Cita cita;
+
+        public Actualizar(List<Cita> citas)
         {
             InitializeComponent();
-            this.cita = citaSeleccionada;
+            listaCitas = citas;
         }
 
         private void Actualizar_Load(object sender, EventArgs e)
         {
-            // Mostrar datos actuales en los controles
+            // Mostrar InputBox para ingresar ID
+            string input = Microsoft.VisualBasic.Interaction.InputBox(
+                "Ingrese el ID de la cita a actualizar:",
+                "Buscar Cita",
+                "",
+                -1, -1);
+
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                MessageBox.Show("No se ingresó ningún ID.");
+                Close();
+                return;
+            }
+
+            if (!int.TryParse(input, out int idBuscado))
+            {
+                MessageBox.Show("ID no válido.");
+                Close();
+                return;
+            }
+
+            // Buscar la cita en la lista recibida
+            cita = listaCitas.FirstOrDefault(c => c.Id == idBuscado);
+
+            if (cita == null)
+            {
+                MessageBox.Show("No se encontró la cita con ese ID.");
+                Close();
+                return;
+            }
+
+            // Mostrar datos de la cita
             txtId.Text = cita.Id.ToString();
             txtId.ReadOnly = true;
-
             txtPaciente.Text = cita.NombrePaciente;
             dtpFecha.Value = cita.Fecha;
             dtpHora.Value = DateTime.Today.Add(cita.Hora);
             nudDuracion.Value = cita.DuracionMinutos;
             txtDentista.Text = cita.NombreDentista;
 
-            cboMotivo.Items.Clear();
             cboMotivo.Items.AddRange(new string[] { "Limpieza", "Extracción", "Revisión" });
             cboMotivo.SelectedItem = cita.Motivo;
         }
 
-        private void BtnActualizar_Click(object sender, EventArgs e)
+        private void btnActualizar_Click(object sender, EventArgs e)
         {
-            // Validaciones
+            // Validar campos
             if (string.IsNullOrWhiteSpace(txtPaciente.Text) ||
                 string.IsNullOrWhiteSpace(txtDentista.Text) ||
                 cboMotivo.SelectedIndex == -1)
@@ -48,7 +79,7 @@ namespace SistemaCitasDental
                 return;
             }
 
-            // Actualizar datos de la cita
+            // Actualizar cita
             cita.NombrePaciente = txtPaciente.Text.Trim();
             cita.Fecha = dtpFecha.Value.Date;
             cita.Hora = dtpHora.Value.TimeOfDay;
@@ -57,13 +88,13 @@ namespace SistemaCitasDental
             cita.Motivo = cboMotivo.SelectedItem.ToString();
 
             DialogResult = DialogResult.OK;
-            this.Close();
+            Close();
         }
 
-        private void BtnCancelar_Click(object sender, EventArgs e)
+        private void btnCancelar_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
-            this.Close();
+            Close();
         }
     }
 }

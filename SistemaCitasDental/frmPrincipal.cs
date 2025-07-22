@@ -113,28 +113,12 @@ namespace SistemaCitasDental
         // ACTUALIZAR cita seleccionada
         private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (dgvCitas.SelectedRows.Count == 0)
-            {
-                MessageBox.Show("Selecciona una fila primero.");
-                return;
-            }
-
-            int idSeleccionado = Convert.ToInt32(dgvCitas.SelectedRows[0].Cells["Id"].Value);
-            Cita citaSeleccionada = listaCitas.FirstOrDefault(c => c.Id == idSeleccionado);
-
-            if (citaSeleccionada == null)
-            {
-                MessageBox.Show("No se encontró la cita seleccionada.");
-                return;
-            }
-
-            // Abrir formulario Actualizar
-            Actualizar frmActualizar = new Actualizar(citaSeleccionada);
+            Actualizar frmActualizar = new Actualizar(listaCitas);
             if (frmActualizar.ShowDialog() == DialogResult.OK)
             {
-                MostrarCitas(); // Refrescar la vista
-                MessageBox.Show("Cita actualizada correctamente.");
+                MostrarCitas(); // Refresca la vista después de actualizar
             }
         }
     }
 }
+

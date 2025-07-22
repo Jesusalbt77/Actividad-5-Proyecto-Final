@@ -43,6 +43,11 @@ namespace SistemaCitasDental
                     return "Finalizado";
             }
         }
+
+        internal Cita FirstOrDefault(Func<object, bool> value)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

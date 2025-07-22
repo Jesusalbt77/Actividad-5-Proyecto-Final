@@ -10,6 +10,8 @@ namespace SistemaCitasDental
     public partial class frmPrincipal : Form
     {
         private List<Cita> listaCitas = new List<Cita>();
+        private Cita citas;
+        private Cita citaSeleccionada;
 
         // Propiedad pública por si necesitas exponer la lista (opcional)
         public List<Cita> ListaCitas
@@ -20,6 +22,13 @@ namespace SistemaCitasDental
         public frmPrincipal()
         {
             InitializeComponent();
+        }
+
+        //actualizar 
+        private void RefrescarGrid()
+        {
+            dgvCitas.DataSource = null;
+            dgvCitas.DataSource = citas;
         }
 
         private void MostrarCitas()
@@ -111,6 +120,45 @@ namespace SistemaCitasDental
                     MessageBox.Show("Error al exportar: " + ex.Message);
                 }
             }
+        }
+        //actualizar
+        private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Actualizar frmActualizar = new Actualizar();
+            frmActualizar.citaAEditar = citaSeleccionada; // Asignar la cita antes de ShowDialog
+            frmActualizar.ShowDialog();
+           
+
+
+
+            if (dgvCitas.SelectedRows.Count > 0)
+            {
+                int idSeleccionado = Convert.ToInt32(dgvCitas.SelectedRows[0].Cells["Id"].Value);
+
+                Cita citaSeleccionada = listaCitas.FirstOrDefault(c => c.Id == idSeleccionado);
+
+
+                if (citaSeleccionada != null)
+                {
+                    Actualizar Actualizar = new Actualizar();
+                    frmActualizar.citaAEditar = citaSeleccionada;
+                    frmActualizar.ShowDialog();
+
+                    RefrescarGrid(); // Método para actualizar el DataGridView
+                }
+                else
+                {
+                    MessageBox.Show("No se encontró la cita seleccionada.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Selecciona una fila primero.");
+            }
+           
+
+
+
         }
     }
 }

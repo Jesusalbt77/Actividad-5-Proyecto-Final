@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|c:\\users\\pc\\documents\\github\\actividad-5-proyecto-final\\sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|c:\\users\\pc\\documents\\github\\actividad-5-proyecto-final\\sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -84,7 +84,7 @@
               "RelativeDocumentMoniker": "SistemaCitasDental\\frmPrincipal.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmPrincipal.cs",
               "RelativeToolTip": "SistemaCitasDental\\frmPrincipal.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAAAKQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAH0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T17:55:06.644Z",
               "EditorCaption": ""
@@ -98,8 +98,7 @@
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
               "RelativeToolTip": "SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T18:19:50.864Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-21T18:19:50.864Z"
             },
             {
               "$type": "Document",
@@ -111,8 +110,7 @@
               "RelativeToolTip": "SistemaCitasDental\\Actualizar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T04:32:56.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T04:32:56.936Z"
             },
             {
               "$type": "Document",
@@ -124,8 +122,7 @@
               "RelativeToolTip": "SistemaCitasDental\\frmAgendarCita.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T18:20:23.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T18:20:23.92Z"
             },
             {
               "$type": "Document",
@@ -148,8 +145,7 @@
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\Actualizar.cs [Dise\u00F1o]",
               "RelativeToolTip": "SistemaCitasDental\\Actualizar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T04:26:07.386Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-22T04:26:07.386Z"
             },
             {
               "$type": "Document",

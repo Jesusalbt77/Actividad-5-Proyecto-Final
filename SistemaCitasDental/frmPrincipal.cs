@@ -65,11 +65,40 @@ namespace SistemaCitasDental
                 return;
             }
 
+            // Pedir el ID con InputBox
+            string input = Microsoft.VisualBasic.Interaction.InputBox(
+                "Ingrese el ID de la cita que desea exportar:",
+                "Exportar Cita",
+                "",
+                -1, -1);
+
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                MessageBox.Show("No se ingresó ningún ID.");
+                return;
+            }
+
+            if (!int.TryParse(input, out int idBuscado))
+            {
+                MessageBox.Show("ID inválido.");
+                return;
+            }
+
+            // Buscar la cita específica
+            var cita = listaCitas.FirstOrDefault(c => c.Id == idBuscado);
+
+            if (cita == null)
+            {
+                MessageBox.Show("No se encontró una cita con ese ID.");
+                return;
+            }
+
+            // Configurar diálogo para guardar
             SaveFileDialog saveFileDialog = new SaveFileDialog
             {
                 Filter = "Archivo CSV (*.csv)|*.csv",
                 Title = "Guardar archivo CSV",
-                FileName = "Citas_Consultorio.csv"
+                FileName = $"Cita_{cita.Id}.csv"
             };
 
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
@@ -78,16 +107,17 @@ namespace SistemaCitasDental
                 {
                     using (StreamWriter writer = new StreamWriter(saveFileDialog.FileName, false, Encoding.UTF8))
                     {
+                        // Encabezados
                         writer.WriteLine("ID,Paciente,Fecha,Hora,Duración,Dentista,Motivo,Tiempo Restante,Estado");
 
-                        foreach (var cita in listaCitas)
-                        {
-                            string tiempoRestante = $"{cita.TiempoRestante.Hours:00}:{cita.TiempoRestante.Minutes:00}";
-                            writer.WriteLine($"{cita.Id},{cita.NombrePaciente},{cita.Fecha:yyyy-MM-dd},{cita.Hora:hh\\:mm},{cita.DuracionMinutos},{cita.NombreDentista},{cita.Motivo},{tiempoRestante},{cita.Estado}");
-                        }
+                        // Formatear tiempo restante
+                        string tiempoRestante = $"{cita.TiempoRestante.Hours:00}:{cita.TiempoRestante.Minutes:00}";
+
+                        // Escribir datos de la cita
+                        writer.WriteLine($"{cita.Id},{cita.NombrePaciente},{cita.Fecha:yyyy-MM-dd},{cita.Hora:hh\\:mm},{cita.DuracionMinutos},{cita.NombreDentista},{cita.Motivo},{tiempoRestante},{cita.Estado}");
                     }
 
-                    MessageBox.Show("Citas exportadas correctamente.");
+                    MessageBox.Show("Cita exportada correctamente.");
                 }
                 catch (Exception ex)
                 {
@@ -95,7 +125,8 @@ namespace SistemaCitasDental
                 }
             }
         }
-
+        ///hasta aqui
+        
         // Confirmar salida del sistema
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {

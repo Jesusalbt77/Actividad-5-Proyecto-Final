@@ -73,7 +73,7 @@ namespace SistemaCitasDental
 
         private void exportarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // ✅ Se usa listaCitas directamente, no la clase frmPrincipal
+            //  Se usa listaCitas directamente, no la clase frmPrincipal
             if (listaCitas.Count == 0)
             {
                 MessageBox.Show("No hay citas para exportar.");

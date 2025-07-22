@@ -8,7 +8,7 @@ namespace SistemaCitasDental
 {
     public class Cita
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string NombrePaciente { get; set; }
         public DateTime Fecha { get; set; }
         public TimeSpan Hora { get; set; }

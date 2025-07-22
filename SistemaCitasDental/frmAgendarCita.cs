@@ -20,25 +20,19 @@ namespace SistemaCitasDental
             InitializeComponent();
             citasExistentes = citas;
 
+            GenerarIdAutomatico(); // Agrega esta línea aquí
+
             cboMotivo.Items.AddRange(new string[] { "Limpieza", "Extracción", "Revisión" });
             cboMotivo.SelectedIndex = 0;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            // Validaciones
-            if (string.IsNullOrWhiteSpace(txtId.Text) ||
-             string.IsNullOrWhiteSpace(txtPaciente.Text) ||
-             string.IsNullOrWhiteSpace(txtDentista.Text) ||
-             cboMotivo.SelectedIndex == -1)
+            if (string.IsNullOrWhiteSpace(txtPaciente.Text) ||
+                string.IsNullOrWhiteSpace(txtDentista.Text) ||
+                cboMotivo.SelectedIndex == -1)
             {
                 MessageBox.Show("Todos los campos son obligatorios.");
-                return;
-            }
-
-            if (citasExistentes.Any(c => c.Id == txtId.Text))
-            {
-                MessageBox.Show("El ID ingresado ya existe.");
                 return;
             }
 
@@ -51,10 +45,9 @@ namespace SistemaCitasDental
                 return;
             }
 
-            // Crear cita
             NuevaCita = new Cita
             {
-                Id = txtId.Text.Trim(),
+                Id = int.Parse(txtId.Text.Trim()),
                 NombrePaciente = txtPaciente.Text.Trim(),
                 Fecha = fecha,
                 Hora = hora,
@@ -72,5 +65,20 @@ namespace SistemaCitasDental
             DialogResult = DialogResult.Cancel;
             Close();
         }
+
+        private void GenerarIdAutomatico()
+        {
+            int nuevoId = 1;
+
+            if (citasExistentes.Any())
+            {
+                nuevoId = citasExistentes.Max(c => c.Id) + 1;
+            }
+
+
+            txtId.Text = nuevoId.ToString();
+            txtId.ReadOnly = true;
+        }
+
     }
 }

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace SistemaCitasDental
 {
@@ -117,6 +118,51 @@ namespace SistemaCitasDental
             if (frmActualizar.ShowDialog() == DialogResult.OK)
             {
                 MostrarCitas(); // Refresca la vista después de actualizar
+            }
+        }
+
+        private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string input = Microsoft.VisualBasic.Interaction.InputBox(
+        "Ingrese el ID de la cita a eliminar:",
+        "Eliminar Cita",
+        "",
+        -1, -1);
+
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                MessageBox.Show("No se ingresó ningún ID.");
+                return;
+            }
+
+            if (!int.TryParse(input, out int idEliminar))
+            {
+                MessageBox.Show("ID no válido.");
+                return;
+            }
+
+            var citaEliminar = listaCitas.FirstOrDefault(c => c.Id == idEliminar);
+
+            if (citaEliminar == null)
+            {
+                MessageBox.Show("No se encontró ninguna cita con ese ID.");
+                return;
+            }
+
+            DialogResult confirmacion = MessageBox.Show(
+                $"¿Está seguro de eliminar la cita con ID {idEliminar}?",
+                "Confirmar eliminación",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (confirmacion == DialogResult.Yes)
+            {
+                listaCitas.Remove(citaEliminar);
+                MessageBox.Show("Cita eliminada correctamente.");
+
+                // Si tienes un DataGridView, actualízalo así:
+                dgvCitas.DataSource = null;
+                dgvCitas.DataSource = listaCitas;
             }
         }
     }

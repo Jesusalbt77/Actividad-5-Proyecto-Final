@@ -42,6 +42,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mostrarToolStripMenuItem,
@@ -53,7 +54,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(11, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1100, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1100, 36);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -61,7 +62,7 @@
             // 
             this.mostrarToolStripMenuItem.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
-            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(75, 22);
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(105, 30);
             this.mostrarToolStripMenuItem.Text = "Mostrar";
             this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
             // 
@@ -69,7 +70,7 @@
             // 
             this.agendarToolStripMenuItem.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.agendarToolStripMenuItem.Name = "agendarToolStripMenuItem";
-            this.agendarToolStripMenuItem.Size = new System.Drawing.Size(79, 22);
+            this.agendarToolStripMenuItem.Size = new System.Drawing.Size(114, 30);
             this.agendarToolStripMenuItem.Text = "Agendar";
             this.agendarToolStripMenuItem.Click += new System.EventHandler(this.agendarToolStripMenuItem_Click);
             // 
@@ -77,7 +78,7 @@
             // 
             this.actualizarToolStripMenuItem.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.actualizarToolStripMenuItem.Name = "actualizarToolStripMenuItem";
-            this.actualizarToolStripMenuItem.Size = new System.Drawing.Size(89, 22);
+            this.actualizarToolStripMenuItem.Size = new System.Drawing.Size(128, 30);
             this.actualizarToolStripMenuItem.Text = "Actualizar";
             this.actualizarToolStripMenuItem.Click += new System.EventHandler(this.actualizarToolStripMenuItem_Click);
             // 
@@ -85,14 +86,15 @@
             // 
             this.eliminarToolStripMenuItem.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(77, 22);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(110, 30);
             this.eliminarToolStripMenuItem.Text = "Eliminar";
+            this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
             // exportarToolStripMenuItem
             // 
             this.exportarToolStripMenuItem.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exportarToolStripMenuItem.Name = "exportarToolStripMenuItem";
-            this.exportarToolStripMenuItem.Size = new System.Drawing.Size(81, 22);
+            this.exportarToolStripMenuItem.Size = new System.Drawing.Size(116, 30);
             this.exportarToolStripMenuItem.Text = "Exportar";
             this.exportarToolStripMenuItem.Click += new System.EventHandler(this.exportarToolStripMenuItem_Click);
             // 
@@ -100,7 +102,7 @@
             // 
             this.salirToolStripMenuItem.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(52, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(73, 30);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -109,17 +111,17 @@
             this.dgvCitas.AllowUserToResizeRows = false;
             this.dgvCitas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCitas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvCitas.Location = new System.Drawing.Point(0, 28);
+            this.dgvCitas.Location = new System.Drawing.Point(0, 36);
             this.dgvCitas.Name = "dgvCitas";
             this.dgvCitas.ReadOnly = true;
             this.dgvCitas.RowHeadersWidth = 51;
             this.dgvCitas.RowTemplate.Height = 24;
-            this.dgvCitas.Size = new System.Drawing.Size(1100, 563);
+            this.dgvCitas.Size = new System.Drawing.Size(1100, 555);
             this.dgvCitas.TabIndex = 1;
             // 
             // frmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 591);
             this.Controls.Add(this.dgvCitas);

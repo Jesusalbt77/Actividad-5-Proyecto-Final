@@ -59,7 +59,16 @@ namespace SistemaCitasDental
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult resultado = MessageBox.Show(
+       "¿Estás seguro de que deseas salir?",
+       "Confirmar salida",
+       MessageBoxButtons.YesNo,
+       MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
 
         private void exportarToolStripMenuItem_Click(object sender, EventArgs e)

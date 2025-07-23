@@ -80,5 +80,9 @@ namespace SistemaCitasDental
             txtId.ReadOnly = true;
         }
 
+        private void frmAgendarCita_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

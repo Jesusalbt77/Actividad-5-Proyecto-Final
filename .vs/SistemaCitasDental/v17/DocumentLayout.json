@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|c:\\users\\pc\\documents\\github\\actividad-5-proyecto-final\\sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|c:\\users\\pc\\documents\\github\\actividad-5-proyecto-final\\sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\sistemacitasdental\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,6 +67,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FormMostrar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\FormMostrar.cs",
+              "RelativeDocumentMoniker": "SistemaCitasDental\\FormMostrar.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\FormMostrar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaCitasDental\\FormMostrar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:53:28.068Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAgendarCita.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs",
+              "RelativeDocumentMoniker": "SistemaCitasDental\\frmAgendarCita.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T18:19:50.864Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmAgendarCita.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs",
+              "RelativeDocumentMoniker": "SistemaCitasDental\\frmAgendarCita.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs",
+              "RelativeToolTip": "SistemaCitasDental\\frmAgendarCita.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAApwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T18:20:23.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "SistemaCitasDental\\frmPrincipal.cs",
@@ -78,31 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "SistemaCitasDental\\frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmPrincipal.cs",
-              "RelativeToolTip": "SistemaCitasDental\\frmPrincipal.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAH0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:55:06.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmAgendarCita.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs",
-              "RelativeDocumentMoniker": "SistemaCitasDental\\frmAgendarCita.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T18:19:50.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Actualizar.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\Actualizar.cs",
               "RelativeDocumentMoniker": "SistemaCitasDental\\Actualizar.cs",
@@ -115,18 +128,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "frmAgendarCita.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs",
-              "RelativeDocumentMoniker": "SistemaCitasDental\\frmAgendarCita.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs",
-              "RelativeToolTip": "SistemaCitasDental\\frmAgendarCita.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "SistemaCitasDental\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmPrincipal.cs",
+              "RelativeToolTip": "SistemaCitasDental\\frmPrincipal.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAH0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T18:20:23.92Z"
+              "WhenOpened": "2025-07-21T17:55:06.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FormMostrar.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\FormMostrar.cs",
               "RelativeDocumentMoniker": "SistemaCitasDental\\FormMostrar.cs",
@@ -134,11 +147,12 @@
               "RelativeToolTip": "SistemaCitasDental\\FormMostrar.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAiwFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:53:30.65Z"
+              "WhenOpened": "2025-07-21T17:53:30.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Actualizar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\Actualizar.cs",
               "RelativeDocumentMoniker": "SistemaCitasDental\\Actualizar.cs",
@@ -146,17 +160,6 @@
               "RelativeToolTip": "SistemaCitasDental\\Actualizar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T04:26:07.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormMostrar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\FormMostrar.cs",
-              "RelativeDocumentMoniker": "SistemaCitasDental\\FormMostrar.cs",
-              "ToolTip": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\FormMostrar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\FormMostrar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:53:28.068Z"
             },
             {
               "$type": "Document",

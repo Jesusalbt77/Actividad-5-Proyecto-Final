@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMostrar));
             this.dgvCitas = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCitas)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvCitas
             // 
+            this.dgvCitas.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvCitas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCitas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvCitas.Location = new System.Drawing.Point(0, 0);
@@ -41,19 +43,22 @@
             this.dgvCitas.Name = "dgvCitas";
             this.dgvCitas.RowHeadersWidth = 51;
             this.dgvCitas.RowTemplate.Height = 28;
-            this.dgvCitas.Size = new System.Drawing.Size(711, 360);
+            this.dgvCitas.Size = new System.Drawing.Size(800, 450);
             this.dgvCitas.TabIndex = 0;
+            this.dgvCitas.UseWaitCursor = true;
             this.dgvCitas.Click += new System.EventHandler(this.FormMostrar_Load);
             // 
             // FormMostrar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 360);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dgvCitas);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormMostrar";
-            this.Text = "FormMostrar";
+            this.Text = "Mostrar Citas";
+            this.UseWaitCursor = true;
             this.Load += new System.EventHandler(this.FormMostrar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCitas)).EndInit();
             this.ResumeLayout(false);

@@ -94,6 +94,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -107,6 +108,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentist-profession-web-banner-or-landing-page-with-teeth-icon-white-healthy-tooth-dental-banner-or-background-illustration-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diente-3d-dentista-medico-clinica-dental-concepto-fondo-azul-ilustracion-renderizacion_42100-7505.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_32143155-stock-illustration-tooth-dinamic-background.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizar-pagina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-concepto-dentista-o-clinica-dental_618588-886.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizar-flecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
+
 namespace SistemaCitasDental
 {
     public partial class Actualizar : Form
     {
-
         private List<Cita> listaCitas;
         private Cita cita;
 
@@ -20,6 +20,10 @@ namespace SistemaCitasDental
         {
             InitializeComponent();
             listaCitas = citas;
+
+            // Asociar eventos KeyPress para validación
+            txtPaciente.KeyPress += SoloLetras_KeyPress;
+            txtDentista.KeyPress += SoloLetras_KeyPress;
         }
 
         private void Actualizar_Load(object sender, EventArgs e)
@@ -45,7 +49,7 @@ namespace SistemaCitasDental
                 return;
             }
 
-            // Buscar la cita en la lista recibida
+            // Buscar la cita en la lista
             cita = listaCitas.FirstOrDefault(c => c.Id == idBuscado);
 
             if (cita == null)
@@ -70,7 +74,6 @@ namespace SistemaCitasDental
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            // Validar campos
             if (string.IsNullOrWhiteSpace(txtPaciente.Text) ||
                 string.IsNullOrWhiteSpace(txtDentista.Text) ||
                 cboMotivo.SelectedIndex == -1)
@@ -79,7 +82,7 @@ namespace SistemaCitasDental
                 return;
             }
 
-            // Actualizar cita
+            // Actualizar la cita
             cita.NombrePaciente = txtPaciente.Text.Trim();
             cita.Fecha = dtpFecha.Value.Date;
             cita.Hora = dtpHora.Value.TimeOfDay;
@@ -87,6 +90,7 @@ namespace SistemaCitasDental
             cita.NombreDentista = txtDentista.Text.Trim();
             cita.Motivo = cboMotivo.SelectedItem.ToString();
 
+            MessageBox.Show("Cita actualizada correctamente.");
             DialogResult = DialogResult.OK;
             Close();
         }
@@ -95,6 +99,16 @@ namespace SistemaCitasDental
         {
             DialogResult = DialogResult.Cancel;
             Close();
+        }
+
+        // Validación de letras con mensaje de advertencia
+        private void SoloLetras_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar) && e.KeyChar != ' ')
+            {
+                e.Handled = true;
+                MessageBox.Show("Solo se permiten letras en este campo.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

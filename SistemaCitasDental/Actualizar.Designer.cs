@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Actualizar));
             this.label1 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
-            this.btnActualizar = new System.Windows.Forms.Button();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -39,22 +38,37 @@
             this.nudDuracion = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
             this.txtPaciente = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.txtDentista = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnCancelar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.cboMotivo = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudDuracion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Image = global::SistemaCitasDental.Properties.Resources.fondo_concepto_dentista_o_clinica_dental_618588_886;
-            this.label1.Location = new System.Drawing.Point(54, 118);
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Location = new System.Drawing.Point(123, 121);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 19);
             this.label1.TabIndex = 0;
@@ -63,29 +77,16 @@
             // txtId
             // 
             this.txtId.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtId.Location = new System.Drawing.Point(104, 110);
+            this.txtId.Location = new System.Drawing.Point(219, 118);
             this.txtId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtId.Name = "txtId";
             this.txtId.ReadOnly = true;
             this.txtId.Size = new System.Drawing.Size(178, 27);
             this.txtId.TabIndex = 1;
             // 
-            // btnActualizar
-            // 
-            this.btnActualizar.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btnActualizar.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.Location = new System.Drawing.Point(282, 367);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(87, 83);
-            this.btnActualizar.TabIndex = 2;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = false;
-            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
-            // 
             // dtpFecha
             // 
-            this.dtpFecha.Location = new System.Drawing.Point(634, 245);
+            this.dtpFecha.Location = new System.Drawing.Point(668, 245);
             this.dtpFecha.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(178, 22);
@@ -95,7 +96,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label2.Location = new System.Drawing.Point(532, 248);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 19);
@@ -106,7 +107,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
+            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label3.Location = new System.Drawing.Point(532, 300);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 19);
@@ -115,7 +116,7 @@
             // 
             // dtpHora
             // 
-            this.dtpHora.Location = new System.Drawing.Point(634, 293);
+            this.dtpHora.Location = new System.Drawing.Point(668, 297);
             this.dtpHora.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpHora.Name = "dtpHora";
             this.dtpHora.Size = new System.Drawing.Size(178, 22);
@@ -123,7 +124,7 @@
             // 
             // nudDuracion
             // 
-            this.nudDuracion.Location = new System.Drawing.Point(191, 245);
+            this.nudDuracion.Location = new System.Drawing.Point(220, 245);
             this.nudDuracion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nudDuracion.Maximum = new decimal(new int[] {
             240,
@@ -148,8 +149,8 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Image = ((System.Drawing.Image)(resources.GetObject("label4.Image")));
-            this.label4.Location = new System.Drawing.Point(54, 251);
+            this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.Location = new System.Drawing.Point(23, 248);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(131, 19);
             this.label4.TabIndex = 8;
@@ -157,26 +158,15 @@
             // 
             // txtPaciente
             // 
-            this.txtPaciente.Location = new System.Drawing.Point(191, 185);
+            this.txtPaciente.Location = new System.Drawing.Point(219, 187);
             this.txtPaciente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPaciente.Name = "txtPaciente";
             this.txtPaciente.Size = new System.Drawing.Size(178, 22);
             this.txtPaciente.TabIndex = 10;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Image = ((System.Drawing.Image)(resources.GetObject("label5.Image")));
-            this.label5.Location = new System.Drawing.Point(54, 190);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 19);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Paciente:";
-            // 
             // txtDentista
             // 
-            this.txtDentista.Location = new System.Drawing.Point(634, 185);
+            this.txtDentista.Location = new System.Drawing.Point(668, 184);
             this.txtDentista.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDentista.Name = "txtDentista";
             this.txtDentista.Size = new System.Drawing.Size(178, 22);
@@ -187,32 +177,19 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
+            this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label6.Location = new System.Drawing.Point(532, 188);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(80, 19);
             this.label6.TabIndex = 11;
             this.label6.Text = "Dentista:";
             // 
-            // btnCancelar
-            // 
-            this.btnCancelar.BackColor = System.Drawing.Color.Red;
-            this.btnCancelar.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(525, 367);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(87, 83);
-            this.btnCancelar.TabIndex = 13;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
-            this.label7.Location = new System.Drawing.Point(54, 300);
+            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label7.Location = new System.Drawing.Point(23, 300);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 19);
             this.label7.TabIndex = 14;
@@ -221,7 +198,7 @@
             // cboMotivo
             // 
             this.cboMotivo.FormattingEnabled = true;
-            this.cboMotivo.Location = new System.Drawing.Point(191, 295);
+            this.cboMotivo.Location = new System.Drawing.Point(219, 291);
             this.cboMotivo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboMotivo.Name = "cboMotivo";
             this.cboMotivo.Size = new System.Drawing.Size(178, 24);
@@ -232,19 +209,137 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Image = global::SistemaCitasDental.Properties.Resources.fondo_concepto_dentista_o_clinica_dental_618588_886;
+            this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label8.Location = new System.Drawing.Point(337, 38);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(313, 33);
             this.label8.TabIndex = 16;
             this.label8.Text = "Actualización de Citas";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label5.Location = new System.Drawing.Point(23, 188);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(82, 19);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Paciente:";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::SistemaCitasDental.Properties.Resources.id_del_paciente;
+            this.pictureBox7.Location = new System.Drawing.Point(171, 118);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(43, 25);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 23;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::SistemaCitasDental.Properties.Resources.reloj;
+            this.pictureBox6.Location = new System.Drawing.Point(618, 297);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(43, 25);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 22;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::SistemaCitasDental.Properties.Resources.fecha_tope;
+            this.pictureBox5.Location = new System.Drawing.Point(618, 245);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(43, 25);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 21;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::SistemaCitasDental.Properties.Resources.dentista;
+            this.pictureBox4.Location = new System.Drawing.Point(618, 184);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(43, 25);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 20;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::SistemaCitasDental.Properties.Resources.causa_principal;
+            this.pictureBox3.Location = new System.Drawing.Point(171, 290);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(43, 25);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::SistemaCitasDental.Properties.Resources.duracion;
+            this.pictureBox2.Location = new System.Drawing.Point(171, 242);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(43, 25);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SistemaCitasDental.Properties.Resources.paciente;
+            this.pictureBox1.Location = new System.Drawing.Point(171, 184);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(43, 25);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.BackColor = System.Drawing.Color.Wheat;
+            this.btnCancelar.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Image = global::SistemaCitasDental.Properties.Resources.cancelar__1_1;
+            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelar.Location = new System.Drawing.Point(536, 376);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(150, 57);
+            this.btnCancelar.TabIndex = 13;
+            this.btnCancelar.Text = "     Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.BackColor = System.Drawing.Color.Wheat;
+            this.btnActualizar.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.Image = global::SistemaCitasDental.Properties.Resources.actualizar__1_;
+            this.btnActualizar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnActualizar.Location = new System.Drawing.Point(219, 376);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(150, 57);
+            this.btnActualizar.TabIndex = 2;
+            this.btnActualizar.Text = "     Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
             // Actualizar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SistemaCitasDental.Properties.Resources.fondo_concepto_dentista_o_clinica_dental_618588_886;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(1063, 561);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.cboMotivo);
             this.Controls.Add(this.label7);
@@ -268,6 +363,13 @@
             this.Text = "Actualizar Citas";
             this.Load += new System.EventHandler(this.Actualizar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudDuracion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -292,5 +394,12 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cboMotivo;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }

@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|c:\\users\\jesus alberto lebron\\onedrive\\escritorio\\practica 5\\sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\actualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|c:\\users\\jesus alberto lebron\\onedrive\\escritorio\\practica 5\\sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\sistemacitasdental\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -25,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\sistemacitasdental\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\sistemacitasdental\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1511,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,68 +46,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormMostrar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\FormMostrar.cs",
-              "RelativeDocumentMoniker": "SistemaCitasDental\\FormMostrar.cs",
-              "ToolTip": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\FormMostrar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaCitasDental\\FormMostrar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:53:28.068Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmAgendarCita.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\frmAgendarCita.cs",
-              "RelativeDocumentMoniker": "SistemaCitasDental\\frmAgendarCita.cs",
-              "ToolTip": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T18:19:50.864Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Actualizar.cs",
-              "DocumentMoniker": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\Actualizar.cs",
-              "RelativeDocumentMoniker": "SistemaCitasDental\\Actualizar.cs",
-              "ToolTip": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\Actualizar.cs*",
-              "RelativeToolTip": "SistemaCitasDental\\Actualizar.cs*",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAiwHIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T04:32:56.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Actualizar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\Actualizar.cs",
-              "RelativeDocumentMoniker": "SistemaCitasDental\\Actualizar.cs",
-              "ToolTip": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\Actualizar.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "SistemaCitasDental\\Actualizar.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T04:26:07.386Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "frmPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "SistemaCitasDental\\frmPrincipal.cs",
               "ToolTip": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\frmPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "SistemaCitasDental\\frmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:45:35.74Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-21T17:45:35.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "frmAgendarCita.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\frmAgendarCita.cs",
+              "RelativeDocumentMoniker": "SistemaCitasDental\\frmAgendarCita.cs",
+              "ToolTip": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T18:19:50.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Actualizar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\Actualizar.cs",
+              "RelativeDocumentMoniker": "SistemaCitasDental\\Actualizar.cs",
+              "ToolTip": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\Actualizar.cs [Design]",
+              "RelativeToolTip": "SistemaCitasDental\\Actualizar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T04:26:07.386Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "SistemaCitasDental\\frmPrincipal.cs",
@@ -127,25 +88,11 @@
               "RelativeToolTip": "SistemaCitasDental\\frmPrincipal.cs",
               "ViewState": "AgIAAIEAAAAAAAAAAAAowH0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:55:06.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T17:55:06.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormMostrar.cs",
-              "DocumentMoniker": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\FormMostrar.cs",
-              "RelativeDocumentMoniker": "SistemaCitasDental\\FormMostrar.cs",
-              "ToolTip": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\FormMostrar.cs",
-              "RelativeToolTip": "SistemaCitasDental\\FormMostrar.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAiwFQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:53:30.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Cita.cs",
               "DocumentMoniker": "C:\\Users\\Jesus Alberto Lebron\\OneDrive\\Escritorio\\Practica 5\\SistemaCitasDental\\Cita.cs",
               "RelativeDocumentMoniker": "SistemaCitasDental\\Cita.cs",

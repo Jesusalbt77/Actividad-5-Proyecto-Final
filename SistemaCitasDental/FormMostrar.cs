@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Drawing;
+using System.Drawing; 
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,10 +18,22 @@ namespace SistemaCitasDental
         {
             InitializeComponent();
             this.listaCitas = citas;
+
+            // Establecer posición manual
+            this.StartPosition = FormStartPosition.Manual;
+            this.Load += FormMostrar_Load;
         }
 
         private void FormMostrar_Load(object sender, EventArgs e)
         {
+            // Centrar dentro del formulario MDI padre
+            if (this.MdiParent != null)
+            {
+                int x = (this.MdiParent.ClientSize.Width - this.Width) / 2;
+                int y = (this.MdiParent.ClientSize.Height - this.Height) / 2;
+                this.Location = new Point(Math.Max(0, x), Math.Max(0, y));
+            }
+
             RefrescarGrid();
         }
 
@@ -64,10 +76,7 @@ namespace SistemaCitasDental
                 return;
             }
 
-            // Obtener el ID de la fila seleccionada
             int idSeleccionado = Convert.ToInt32(dgvCitas.SelectedRows[0].Cells["Id"].Value);
-
-            // Buscar la cita original en la lista
             Cita citaSeleccionada = listaCitas.FirstOrDefault(c => c.Id == idSeleccionado);
 
             if (citaSeleccionada == null)
@@ -76,11 +85,10 @@ namespace SistemaCitasDental
                 return;
             }
 
-            // Abrir formulario de actualización
             Actualizar formActualizar = new Actualizar(listaCitas);
             if (formActualizar.ShowDialog() == DialogResult.OK)
             {
-                RefrescarGrid(); // Refrescar la vista
+                RefrescarGrid();
             }
         }
     }

@@ -35,7 +35,7 @@
             // 
             // dgvCitas
             // 
-            this.dgvCitas.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvCitas.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dgvCitas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCitas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvCitas.Location = new System.Drawing.Point(0, 0);

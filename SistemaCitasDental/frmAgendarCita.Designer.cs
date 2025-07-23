@@ -53,12 +53,12 @@
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblID.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblID.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblID.Location = new System.Drawing.Point(182, 226);
             this.lblID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(129, 24);
+            this.lblID.Size = new System.Drawing.Size(106, 19);
             this.lblID.TabIndex = 0;
             this.lblID.Text = "ID de la cita:";
             // 
@@ -73,11 +73,11 @@
             // lblPaciente
             // 
             this.lblPaciente.AutoSize = true;
-            this.lblPaciente.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPaciente.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPaciente.Location = new System.Drawing.Point(88, 306);
             this.lblPaciente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPaciente.Name = "lblPaciente";
-            this.lblPaciente.Size = new System.Drawing.Size(209, 24);
+            this.lblPaciente.Size = new System.Drawing.Size(177, 19);
             this.lblPaciente.TabIndex = 2;
             this.lblPaciente.Text = "Nombre del Paciente:";
             // 
@@ -92,11 +92,11 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.Location = new System.Drawing.Point(235, 380);
             this.lblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(70, 24);
+            this.lblFecha.Size = new System.Drawing.Size(62, 19);
             this.lblFecha.TabIndex = 4;
             this.lblFecha.Text = "Fecha:";
             // 
@@ -112,11 +112,11 @@
             // lblHora
             // 
             this.lblHora.AutoSize = true;
-            this.lblHora.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHora.Location = new System.Drawing.Point(249, 437);
             this.lblHora.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(60, 24);
+            this.lblHora.Size = new System.Drawing.Size(53, 19);
             this.lblHora.TabIndex = 6;
             this.lblHora.Text = "Hora:";
             // 
@@ -132,11 +132,11 @@
             // lblDuracion
             // 
             this.lblDuracion.AutoSize = true;
-            this.lblDuracion.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDuracion.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDuracion.Location = new System.Drawing.Point(652, 430);
             this.lblDuracion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDuracion.Name = "lblDuracion";
-            this.lblDuracion.Size = new System.Drawing.Size(191, 24);
+            this.lblDuracion.Size = new System.Drawing.Size(165, 19);
             this.lblDuracion.TabIndex = 8;
             this.lblDuracion.Text = "Duracion (Minutos):";
             // 
@@ -166,11 +166,11 @@
             // lblDentista
             // 
             this.lblDentista.AutoSize = true;
-            this.lblDentista.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDentista.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDentista.Location = new System.Drawing.Point(641, 313);
             this.lblDentista.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDentista.Name = "lblDentista";
-            this.lblDentista.Size = new System.Drawing.Size(204, 24);
+            this.lblDentista.Size = new System.Drawing.Size(173, 19);
             this.lblDentista.TabIndex = 10;
             this.lblDentista.Text = "Nombre del dentista:";
             // 
@@ -185,11 +185,11 @@
             // lblMotivo
             // 
             this.lblMotivo.AutoSize = true;
-            this.lblMotivo.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMotivo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMotivo.Location = new System.Drawing.Point(651, 380);
             this.lblMotivo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMotivo.Name = "lblMotivo";
-            this.lblMotivo.Size = new System.Drawing.Size(191, 24);
+            this.lblMotivo.Size = new System.Drawing.Size(163, 19);
             this.lblMotivo.TabIndex = 12;
             this.lblMotivo.Text = "Motivo de consulta:";
             // 
@@ -256,7 +256,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(1457, 775);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

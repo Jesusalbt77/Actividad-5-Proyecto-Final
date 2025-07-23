@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Drawing; // AÑADIDO para usar Point
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,10 @@ namespace SistemaCitasDental
         {
             InitializeComponent();
             citasExistentes = citas;
+
+            // Establecer centrado manual
+            this.StartPosition = FormStartPosition.Manual;
+            this.Load += frmAgendarCita_Load;
 
             GenerarIdAutomatico();
 
@@ -83,10 +88,16 @@ namespace SistemaCitasDental
 
         private void frmAgendarCita_Load(object sender, EventArgs e)
         {
-            // No se usa actualmente
+            // Centrar dentro del formulario MDI padre
+            if (this.MdiParent != null)
+            {
+                int x = (this.MdiParent.ClientSize.Width - this.Width) / 2;
+                int y = (this.MdiParent.ClientSize.Height - this.Height) / 2;
+                this.Location = new Point(Math.Max(0, x), Math.Max(0, y));
+            }
         }
 
-        // ✅ Solo permitir letras
+        // Solo permitir letras
         private void SoloLetras_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar) && e.KeyChar != ' ')

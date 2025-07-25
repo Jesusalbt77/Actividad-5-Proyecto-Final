@@ -15,6 +15,7 @@ namespace SistemaCitasDental
         public frmPrincipal()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
         }
 
         // Mostrar citas en el DataGridView
@@ -124,6 +125,8 @@ namespace SistemaCitasDental
                     MessageBox.Show("Error al exportar: " + ex.Message);
                 }
             }
+
+
         }
         ///hasta aqui
         

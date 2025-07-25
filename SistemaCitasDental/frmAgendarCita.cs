@@ -106,5 +106,10 @@ namespace SistemaCitasDental
                 MessageBox.Show("Solo se permiten letras en este campo.");
             }
         }
+
+        private void lblID_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Christiam Laureano\\OneDrive\\Documentos\\Actividad-5-Proyecto-Final\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|c:\\users\\christiam laureano\\onedrive\\documentos\\actividad-5-proyecto-final\\sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29306A0D-A601-423E-80EF-AF8C1ACC130C}|SistemaCitasDental\\SistemaCitasDental.csproj|solutionrelative:sistemacitasdental\\frmagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +14,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1511,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAgendarCita.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christiam Laureano\\OneDrive\\Documentos\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs",
+              "RelativeDocumentMoniker": "SistemaCitasDental\\frmAgendarCita.cs",
+              "ToolTip": "C:\\Users\\Christiam Laureano\\OneDrive\\Documentos\\Actividad-5-Proyecto-Final\\SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaCitasDental\\frmAgendarCita.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:18:25.21Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

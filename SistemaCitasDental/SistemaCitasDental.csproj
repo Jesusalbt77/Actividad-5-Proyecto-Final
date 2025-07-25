@@ -190,5 +190,26 @@
   <ItemGroup>
     <None Include="Resources\guardar-el-archivo1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de WhatsApp 2025-07-24 a las 23.57.49_a3e58625.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de WhatsApp 2025-07-24 a las 23.57.49_a97dda36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-guardar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-guardar1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-guardar2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar-el-archivo.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

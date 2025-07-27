@@ -15,6 +15,7 @@ namespace SistemaCitasDental
         public frmPrincipal()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
         }
 
         // Mostrar citas en el DataGridView
@@ -41,12 +42,18 @@ namespace SistemaCitasDental
         private void agendarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmAgendarCita ventana = new frmAgendarCita(listaCitas);
-            if (ventana.ShowDialog() == DialogResult.OK)
-            {
-                listaCitas.Add(ventana.NuevaCita);
-                MostrarCitas();
-                MessageBox.Show("Cita registrada correctamente.");
+          if  (ventana.ShowDialog() == DialogResult.OK)
+          {
+                // listaCitas.Add(ventana.NuevaCita);
+                // MostrarCitas();
+                // MessageBox.Show("Cita registrada correctamente.");
+
+                frmAgendarCita form = new frmAgendarCita(listaCitas);
+                form.MdiParent = this;
+                form.Show();
             }
+
+            
         }
 
         // Mostrar todas las citas en ventana aparte

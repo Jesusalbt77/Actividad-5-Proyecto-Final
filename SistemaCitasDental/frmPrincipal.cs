@@ -11,11 +11,15 @@ namespace SistemaCitasDental
     public partial class frmPrincipal : Form
     {
         private List<Cita> listaCitas = new List<Cita>();
-
+        
         public frmPrincipal()
         {
             InitializeComponent();
             this.IsMdiContainer = true;
+        
+
+
+
         }
 
         // Mostrar citas en el DataGridView
@@ -35,32 +39,32 @@ namespace SistemaCitasDental
                 DiasRestantes = c.TiempoRestante.Days,
                 HorasRestantes = c.TiempoRestante.Hours,
                 Estado = c.Estado
+          
             }).ToList();
+
+           
         }
+
 
         // Agendar cita
         private void agendarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmAgendarCita ventana = new frmAgendarCita(listaCitas);
-          if  (ventana.ShowDialog() == DialogResult.OK)
-          {
-                // listaCitas.Add(ventana.NuevaCita);
-                // MostrarCitas();
-                // MessageBox.Show("Cita registrada correctamente.");
-
-                frmAgendarCita form = new frmAgendarCita(listaCitas);
-                form.MdiParent = this;
-                form.Show();
+            if (ventana.ShowDialog() == DialogResult.OK)
+            {
+                listaCitas.Add(ventana.NuevaCita);
+                MostrarCitas();
+                MessageBox.Show("Cita registrada correctamente.");
             }
-
-            
         }
 
         // Mostrar todas las citas en ventana aparte
         private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormMostrar form = new FormMostrar(listaCitas);
-            form.ShowDialog();
+           form.ShowDialog();
+
+           
         }
 
         // Exportar citas a CSV
@@ -131,6 +135,8 @@ namespace SistemaCitasDental
                     MessageBox.Show("Error al exportar: " + ex.Message);
                 }
             }
+
+
         }
         ///hasta aqui
         

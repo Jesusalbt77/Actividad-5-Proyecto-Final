@@ -94,6 +94,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -107,6 +108,108 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentist-profession-web-banner-or-landing-page-with-teeth-icon-white-healthy-tooth-dental-banner-or-background-illustration-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diente-3d-dentista-medico-clinica-dental-concepto-fondo-azul-ilustracion-renderizacion_42100-7505.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_32143155-stock-illustration-tooth-dinamic-background.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizar-pagina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-concepto-dentista-o-clinica-dental_618588-886.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizar-flecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mostrar-en-mano.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agenda.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diente.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exportar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salida.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paciente.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duracion.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duracion1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\causa-principal.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentista.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fecha-tope.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reloj.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-del-paciente.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizar %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar %281%291.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar-el-archivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar-el-archivo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de WhatsApp 2025-07-24 a las 23.57.49_a3e58625.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de WhatsApp 2025-07-24 a las 23.57.49_a97dda36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-guardar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-guardar1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-guardar2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar-el-archivo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

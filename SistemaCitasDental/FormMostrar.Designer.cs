@@ -35,28 +35,29 @@
             // 
             // dgvCitas
             // 
-            this.dgvCitas.BackgroundColor = System.Drawing.SystemColors.ControlLight;
+            this.dgvCitas.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvCitas.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvCitas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dgvCitas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCitas.Location = new System.Drawing.Point(0, 0);
-            this.dgvCitas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvCitas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvCitas.Name = "dgvCitas";
+            this.dgvCitas.ReadOnly = true;
             this.dgvCitas.RowHeadersWidth = 51;
             this.dgvCitas.RowTemplate.Height = 28;
-            this.dgvCitas.Size = new System.Drawing.Size(890, 442);
+            this.dgvCitas.Size = new System.Drawing.Size(1187, 544);
             this.dgvCitas.TabIndex = 0;
             this.dgvCitas.UseWaitCursor = true;
             this.dgvCitas.Click += new System.EventHandler(this.FormMostrar_Load);
             // 
             // FormMostrar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(890, 442);
+            this.ClientSize = new System.Drawing.Size(1187, 544);
             this.Controls.Add(this.dgvCitas);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormMostrar";
             this.Text = "Mostrar Citas";
             this.UseWaitCursor = true;

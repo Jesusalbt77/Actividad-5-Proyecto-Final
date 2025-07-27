@@ -63,6 +63,16 @@ namespace SistemaCitasDental.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2e1e99052842bc4f5a0437c70106b814774deaed14439ecfa75509e12dbeca09 {
+            get {
+                object obj = ResourceManager.GetObject("2e1e99052842bc4f5a0437c70106b814774deaed14439ecfa75509e12dbeca09", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap actualizar {
             get {
                 object obj = ResourceManager.GetObject("actualizar", resourceCulture);
@@ -76,6 +86,16 @@ namespace SistemaCitasDental.Properties {
         internal static System.Drawing.Bitmap actualizar__1_ {
             get {
                 object obj = ResourceManager.GetObject("actualizar (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap actualizar__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("actualizar (1)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +193,29 @@ namespace SistemaCitasDental.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cancelar__2_ {
+            get {
+                object obj = ResourceManager.GetObject("cancelar (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cancelar1 {
             get {
                 object obj = ResourceManager.GetObject("cancelar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2025_07_27_150604 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2025-07-27 150604", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -238,6 +278,16 @@ namespace SistemaCitasDental.Properties {
             get {
                 object obj = ResourceManager.GetObject("diente-3d-dentista-medico-clinica-dental-concepto-fondo-azul-ilustracion-renderiz" +
                         "acion_42100-7505", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap disco_flexible {
+            get {
+                object obj = ResourceManager.GetObject("disco-flexible", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -368,6 +418,16 @@ namespace SistemaCitasDental.Properties {
         internal static System.Drawing.Bitmap mostrar_en_mano {
             get {
                 object obj = ResourceManager.GetObject("mostrar-en-mano", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap o0612041515313326628 {
+            get {
+                object obj = ResourceManager.GetObject("o0612041515313326628", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

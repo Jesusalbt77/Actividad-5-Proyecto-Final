@@ -211,5 +211,23 @@
   <ItemGroup>
     <None Include="Resources\guardar-el-archivo.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2025-07-27 150604.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disco-flexible.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o0612041515313326628.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar %282%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizar %281%291.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2e1e99052842bc4f5a0437c70106b814774deaed14439ecfa75509e12dbeca09.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

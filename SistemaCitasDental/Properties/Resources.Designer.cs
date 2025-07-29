@@ -385,9 +385,39 @@ namespace SistemaCitasDental.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondo_principal_2 {
+            get {
+                object obj = ResourceManager.GetObject("fondo principal 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap frondo_principal {
             get {
                 object obj = ResourceManager.GetObject("frondo principal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frondo_principal1 {
+            get {
+                object obj = ResourceManager.GetObject("frondo principal1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frondo_principal2 {
+            get {
+                object obj = ResourceManager.GetObject("frondo principal2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

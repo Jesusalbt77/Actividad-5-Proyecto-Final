@@ -229,5 +229,8 @@
   <ItemGroup>
     <None Include="Resources\2e1e99052842bc4f5a0437c70106b814774deaed14439ecfa75509e12dbeca09.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frondo principal.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

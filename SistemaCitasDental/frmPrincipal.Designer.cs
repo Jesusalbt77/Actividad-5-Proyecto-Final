@@ -76,7 +76,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::SistemaCitasDental.Properties.Resources.Captura_de_pantalla_2025_07_27_150604;
+            this.pictureBox1.Image = global::SistemaCitasDental.Properties.Resources.frondo_principal;
             this.pictureBox1.Location = new System.Drawing.Point(0, 42);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1100, 549);
@@ -90,7 +90,7 @@
             this.mostrarToolStripMenuItem.Image = global::SistemaCitasDental.Properties.Resources.mostrar_en_mano;
             this.mostrarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
-            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(122, 36);
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(107, 36);
             this.mostrarToolStripMenuItem.Text = "Mostrar";
             this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
             // 
@@ -100,7 +100,7 @@
             this.agendarToolStripMenuItem.Image = global::SistemaCitasDental.Properties.Resources.agenda;
             this.agendarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.agendarToolStripMenuItem.Name = "agendarToolStripMenuItem";
-            this.agendarToolStripMenuItem.Size = new System.Drawing.Size(130, 36);
+            this.agendarToolStripMenuItem.Size = new System.Drawing.Size(111, 36);
             this.agendarToolStripMenuItem.Text = "Agendar";
             this.agendarToolStripMenuItem.Click += new System.EventHandler(this.agendarToolStripMenuItem_Click);
             // 
@@ -110,7 +110,7 @@
             this.actualizarToolStripMenuItem.Image = global::SistemaCitasDental.Properties.Resources.actualizar;
             this.actualizarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.actualizarToolStripMenuItem.Name = "actualizarToolStripMenuItem";
-            this.actualizarToolStripMenuItem.Size = new System.Drawing.Size(142, 36);
+            this.actualizarToolStripMenuItem.Size = new System.Drawing.Size(121, 36);
             this.actualizarToolStripMenuItem.Text = "Actualizar";
             this.actualizarToolStripMenuItem.Click += new System.EventHandler(this.actualizarToolStripMenuItem_Click);
             // 
@@ -120,7 +120,7 @@
             this.eliminarToolStripMenuItem.Image = global::SistemaCitasDental.Properties.Resources.diente;
             this.eliminarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(128, 36);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(109, 36);
             this.eliminarToolStripMenuItem.Text = "Eliminar";
             this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
@@ -130,7 +130,7 @@
             this.exportarToolStripMenuItem.Image = global::SistemaCitasDental.Properties.Resources.exportar;
             this.exportarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.exportarToolStripMenuItem.Name = "exportarToolStripMenuItem";
-            this.exportarToolStripMenuItem.Size = new System.Drawing.Size(131, 36);
+            this.exportarToolStripMenuItem.Size = new System.Drawing.Size(113, 36);
             this.exportarToolStripMenuItem.Text = "Exportar";
             this.exportarToolStripMenuItem.Click += new System.EventHandler(this.exportarToolStripMenuItem_Click);
             // 
@@ -140,13 +140,13 @@
             this.salirToolStripMenuItem.Image = global::SistemaCitasDental.Properties.Resources.salida;
             this.salirToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(95, 36);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(84, 36);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 591);
             this.Controls.Add(this.pictureBox1);
@@ -156,7 +156,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmPrincipal";
             this.Text = "OdontoTrack";
             this.menuStrip1.ResumeLayout(false);

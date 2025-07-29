@@ -73,17 +73,17 @@
             this.lblID.Location = new System.Drawing.Point(27, 172);
             this.lblID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(106, 19);
+            this.lblID.Size = new System.Drawing.Size(92, 16);
             this.lblID.TabIndex = 0;
             this.lblID.Text = "ID de la cita:";
             this.lblID.Click += new System.EventHandler(this.lblID_Click);
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(254, 169);
+            this.txtId.Location = new System.Drawing.Point(237, 181);
             this.txtId.Margin = new System.Windows.Forms.Padding(4);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(228, 27);
+            this.txtId.Size = new System.Drawing.Size(228, 23);
             this.txtId.TabIndex = 1;
             // 
             // lblPaciente
@@ -93,16 +93,16 @@
             this.lblPaciente.Location = new System.Drawing.Point(27, 226);
             this.lblPaciente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPaciente.Name = "lblPaciente";
-            this.lblPaciente.Size = new System.Drawing.Size(177, 19);
+            this.lblPaciente.Size = new System.Drawing.Size(157, 16);
             this.lblPaciente.TabIndex = 2;
             this.lblPaciente.Text = "Nombre del Paciente:";
             // 
             // txtPaciente
             // 
-            this.txtPaciente.Location = new System.Drawing.Point(254, 223);
+            this.txtPaciente.Location = new System.Drawing.Point(237, 225);
             this.txtPaciente.Margin = new System.Windows.Forms.Padding(4);
             this.txtPaciente.Name = "txtPaciente";
-            this.txtPaciente.Size = new System.Drawing.Size(228, 27);
+            this.txtPaciente.Size = new System.Drawing.Size(228, 23);
             this.txtPaciente.TabIndex = 3;
             // 
             // lblFecha
@@ -112,7 +112,7 @@
             this.lblFecha.Location = new System.Drawing.Point(642, 228);
             this.lblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(62, 19);
+            this.lblFecha.Size = new System.Drawing.Size(54, 16);
             this.lblFecha.TabIndex = 4;
             this.lblFecha.Text = "Fecha:";
             // 
@@ -122,7 +122,7 @@
             this.dtpFecha.Location = new System.Drawing.Point(779, 220);
             this.dtpFecha.Margin = new System.Windows.Forms.Padding(4);
             this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(228, 27);
+            this.dtpFecha.Size = new System.Drawing.Size(228, 23);
             this.dtpFecha.TabIndex = 5;
             // 
             // lblHora
@@ -132,7 +132,7 @@
             this.lblHora.Location = new System.Drawing.Point(651, 275);
             this.lblHora.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(53, 19);
+            this.lblHora.Size = new System.Drawing.Size(44, 16);
             this.lblHora.TabIndex = 6;
             this.lblHora.Text = "Hora:";
             // 
@@ -142,7 +142,7 @@
             this.dtpHora.Location = new System.Drawing.Point(779, 271);
             this.dtpHora.Margin = new System.Windows.Forms.Padding(4);
             this.dtpHora.Name = "dtpHora";
-            this.dtpHora.Size = new System.Drawing.Size(228, 27);
+            this.dtpHora.Size = new System.Drawing.Size(228, 23);
             this.dtpHora.TabIndex = 7;
             // 
             // lblDuracion
@@ -152,13 +152,13 @@
             this.lblDuracion.Location = new System.Drawing.Point(27, 277);
             this.lblDuracion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDuracion.Name = "lblDuracion";
-            this.lblDuracion.Size = new System.Drawing.Size(165, 19);
+            this.lblDuracion.Size = new System.Drawing.Size(145, 16);
             this.lblDuracion.TabIndex = 8;
             this.lblDuracion.Text = "Duracion (Minutos):";
             // 
             // nudDuracion
             // 
-            this.nudDuracion.Location = new System.Drawing.Point(253, 275);
+            this.nudDuracion.Location = new System.Drawing.Point(236, 277);
             this.nudDuracion.Margin = new System.Windows.Forms.Padding(4);
             this.nudDuracion.Maximum = new decimal(new int[] {
             180,
@@ -171,7 +171,7 @@
             0,
             0});
             this.nudDuracion.Name = "nudDuracion";
-            this.nudDuracion.Size = new System.Drawing.Size(229, 27);
+            this.nudDuracion.Size = new System.Drawing.Size(229, 23);
             this.nudDuracion.TabIndex = 9;
             this.nudDuracion.Value = new decimal(new int[] {
             1,
@@ -186,7 +186,7 @@
             this.lblDentista.Location = new System.Drawing.Point(531, 172);
             this.lblDentista.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDentista.Name = "lblDentista";
-            this.lblDentista.Size = new System.Drawing.Size(173, 19);
+            this.lblDentista.Size = new System.Drawing.Size(153, 16);
             this.lblDentista.TabIndex = 10;
             this.lblDentista.Text = "Nombre del dentista:";
             // 
@@ -195,7 +195,7 @@
             this.txtDentista.Location = new System.Drawing.Point(779, 169);
             this.txtDentista.Margin = new System.Windows.Forms.Padding(4);
             this.txtDentista.Name = "txtDentista";
-            this.txtDentista.Size = new System.Drawing.Size(228, 27);
+            this.txtDentista.Size = new System.Drawing.Size(228, 23);
             this.txtDentista.TabIndex = 11;
             // 
             // lblMotivo
@@ -205,7 +205,7 @@
             this.lblMotivo.Location = new System.Drawing.Point(27, 332);
             this.lblMotivo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMotivo.Name = "lblMotivo";
-            this.lblMotivo.Size = new System.Drawing.Size(163, 19);
+            this.lblMotivo.Size = new System.Drawing.Size(146, 16);
             this.lblMotivo.TabIndex = 12;
             this.lblMotivo.Text = "Motivo de consulta:";
             // 
@@ -215,7 +215,7 @@
             this.cboMotivo.Location = new System.Drawing.Point(253, 329);
             this.cboMotivo.Margin = new System.Windows.Forms.Padding(4);
             this.cboMotivo.Name = "cboMotivo";
-            this.cboMotivo.Size = new System.Drawing.Size(228, 27);
+            this.cboMotivo.Size = new System.Drawing.Size(228, 24);
             this.cboMotivo.TabIndex = 13;
             // 
             // label1
@@ -225,7 +225,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(396, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 33);
+            this.label1.Size = new System.Drawing.Size(156, 26);
             this.label1.TabIndex = 16;
             this.label1.Text = "Agendar Citas";
             // 
@@ -309,7 +309,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::SistemaCitasDental.Properties.Resources.duracion;
-            this.pictureBox2.Location = new System.Drawing.Point(212, 276);
+            this.pictureBox2.Location = new System.Drawing.Point(195, 278);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(36, 20);
@@ -320,7 +320,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SistemaCitasDental.Properties.Resources.paciente;
-            this.pictureBox1.Location = new System.Drawing.Point(212, 229);
+            this.pictureBox1.Location = new System.Drawing.Point(195, 231);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(36, 20);
@@ -331,7 +331,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::SistemaCitasDental.Properties.Resources.id_del_paciente;
-            this.pictureBox7.Location = new System.Drawing.Point(212, 171);
+            this.pictureBox7.Location = new System.Drawing.Point(195, 184);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(36, 20);
@@ -352,17 +352,20 @@
             // 
             // frmAgendarCita
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(1057, 505);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.nudDuracion);
+            this.Controls.Add(this.txtPaciente);
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGuardar);
@@ -370,15 +373,12 @@
             this.Controls.Add(this.lblMotivo);
             this.Controls.Add(this.txtDentista);
             this.Controls.Add(this.lblDentista);
-            this.Controls.Add(this.nudDuracion);
             this.Controls.Add(this.lblDuracion);
             this.Controls.Add(this.dtpHora);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.lblFecha);
-            this.Controls.Add(this.txtPaciente);
             this.Controls.Add(this.lblPaciente);
-            this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblID);
             this.Controls.Add(this.pictureBox8);
             this.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

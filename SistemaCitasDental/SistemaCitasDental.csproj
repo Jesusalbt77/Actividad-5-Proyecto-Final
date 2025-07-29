@@ -235,5 +235,23 @@
   <ItemGroup>
     <None Include="Resources\libro.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de WhatsApp 2025-07-28 a las 22.48.49_af2ef5b4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de WhatsApp 2025-07-28 a las 22.47.57_98f4f0ce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
